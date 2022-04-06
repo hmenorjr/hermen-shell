@@ -6,4 +6,4 @@ Just a bunch of bash-scripts I use or used.
 
 ## Usage
 1. Download the script
-2. run `source openSites.sh`
+2. run `source <name of the script>.sh`
