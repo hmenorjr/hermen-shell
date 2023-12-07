@@ -1,9 +1,14 @@
 # bash commands
 alias la='ll' # remap
 alias rmrf='rm -rf' # force remove a folder
-alias take='function _take() { mkdir -p "$1" && cd "$1"; }; _take' # MacOS 'take' command
+alias take='function _take() { mkdir -p "$1" && cd "$1"; }; _take' # MacOS 'take' command'
+alias ..='cd ..'
+alias ..2='cd ../..'
+alias ..3='cd ../..'
+alias root='cd ~'
+alias pbcopy='clip.exe'
 
-# Git commands from ohmyzsh
+# Git commands
 alias g='git'
 alias gcl='g clone --recurse-submodules && cd "$1"'
 alias ga='g add'
